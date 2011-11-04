@@ -1,3 +1,9 @@
+# revision 20668
+# category Package
+# catalog-ctan /macros/latex/contrib/natbib
+# catalog-date 2010-12-06 21:27:27 +0100
+# catalog-license lppl
+# catalog-version 8.31b
 Name:		texlive-natbib
 Version:	8.31b
 Release:	1
@@ -58,6 +64,7 @@ the start to be compatible with natbib.
 %doc %{_texmfdistdir}/source/latex/natbib/bibentry.ins
 %doc %{_texmfdistdir}/source/latex/natbib/natbib.dtx
 %doc %{_texmfdistdir}/source/latex/natbib/natbib.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +75,5 @@ the start to be compatible with natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
