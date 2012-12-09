@@ -64,3 +64,17 @@ the start to be compatible with natbib.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 8.31b-2
++ Revision: 754247
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 8.31b-1
++ Revision: 719100
+- texlive-natbib
+- texlive-natbib
+- texlive-natbib
+- texlive-natbib
+
