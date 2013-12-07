@@ -6,7 +6,7 @@
 # catalog-version 8.31b
 Name:		texlive-natbib
 Version:	8.31b
-Release:	4
+Release:	5
 Summary:	Flexible bibliography support
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/natbib
