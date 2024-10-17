@@ -3,7 +3,7 @@ Version:	20668
 Release:	2
 Summary:	Flexible bibliography support
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/natbib
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/natbib
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/natbib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/natbib.doc.r%{version}.tar.xz
